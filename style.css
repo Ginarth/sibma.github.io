@@ -1,0 +1,190 @@
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+body {
+    overflow: -moz-scrollbars-none;
+}
+
+body {
+    min-width: 720px;
+}
+
+header {
+    background: #b3d6c5;
+    min-height: 100px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+:target {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+.navbar-brand {
+    margin: 0px;
+    height: 84px;
+    width: 200px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 300px;
+}
+
+h1 {
+    width: 500px;
+    font-size: 30pt;
+    font-style: italic;
+    border-bottom: 3px solid #b3d6c5;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+p {
+    font-size: 18pt;
+}
+
+.ta-justify {
+    text-align: justify;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-end {
+    text-align: end;
+}
+
+#about-company-logo {
+    background: url(image/main-sibma.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#htrv-block {
+    margin-top: 20px;
+}
+
+#htrv-block h2 b {
+    color: red;
+}
+
+#two-parts {
+    margin-top: 20px;
+}
+
+#two-parts p {
+    font-size: 16pt;
+}
+
+#two-images div {
+    height: 200px;
+}
+
+#main-hands {
+    background: url(image/main-hands.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#main-map {
+    background: url(image/main-map.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#publishing-title {
+    margin-top: 150px;
+}
+
+#publishing-title h1 {
+    width: 100%;
+    font-size: 25pt;
+}
+
+#publishing-title h1 {
+    overflow: hidden;
+    border: none;
+}
+
+#publishing-title h1 span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 span:before,
+h1 span:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 3px;
+    background-color: #b3d6c5;
+    position: relative;
+}
+
+h1 span:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+h1 span:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+#publishing-text {
+    margin-top: 50px;
+}
+
+#publishing-pdfs {
+    margin-top: 150px;
+}
+
+.adaptive-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#support-logo {
+    background: url(image/main-fpi.jpg) 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#about-company {
+    margin-bottom: 300px;
+}
+
+#htrv {
+    margin-top: 300px;
+}
+
+#support {
+    margin-bottom: 350px;
+}
+
+#contacts {
+    margin-bottom: 350px;
+}
